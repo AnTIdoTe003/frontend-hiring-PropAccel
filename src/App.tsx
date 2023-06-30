@@ -22,7 +22,7 @@ const App = () => {
           </div>
           {/* Hero Section */}
           <div className=" font-Poppins w-full pb-[380px]">
-            <div className="w-full flex flex-row-reverse px-[175px]  ">
+            <div className="w-full flex flex-row-reverse px-[175px] gap-4  ">
               <div className="w-full relative">
                 <img className=" absolute" src={hero1} alt="" />
                 <img className="-translate-x-10 translate-y-20"  src={hero2} alt="" />
@@ -51,9 +51,10 @@ const App = () => {
           </div>
 
           {/* Course card */}
-          <div className="w-full pb-[155px]">
+          <div className="w-full pb-[155px] font-Inter">
             <div className="w-full flex gap-[5rem] px-[175px]">
-              <div className="grid grid-rows-2 grid-flow-col gap-y-10 gap-x-5 relative">
+              {/* Right Part */}
+              <div className="grid w-[50%] grid-rows-2 grid-flow-col gap-y-10 gap-x-5 relative">
                 {/* Card */}
                 <div className="-translate-y-4 px-8 py-5 border-2 border-purple-300 w-[268px] h-[160px] rounded-md ">
                   <h2 className="py-2 font-bold text-[20px]">
@@ -97,14 +98,14 @@ const App = () => {
               </div>
         
               {/* Left part of the course card */}
-              <div className="flex flex-col gap-[24px] justify-center">
-                <h1 className="text-[30px] font-[700] w-[250px]">
+              <div className="flex flex-col gap-[24px] justify-center w-[50%]">
+                <h1 className="text-[48px] font-[700] font-Inter">
                 About the Course
                 </h1>
-                <p className="w-[280px] text-[12px]">
+                <p className="w-[367px] text-[14px] font-Poppins font-[400]">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unkno
                 </p>
-                <button className="bg-linear-grad text-white w-[125px] h-[30px] rounded-md pt-2 pb-8">Explore Now</button>
+                <button className=" text-[20px] font-Poppins font-[700] bg-linear-grad text-white w-[225px] h-[30px] rounded-md pt-4 pb-11">Explore Now</button>
               </div>
             </div>
           </div>

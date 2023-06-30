@@ -19,7 +19,7 @@ const Component1 = () => {
           point:"Free access to video class"
         }
       ],
-      bg:"white"
+      bg:"bg-white"
     },{
       heading:"Premium  Plan",
       description:"Lorem Ipsum is simply dummy text of the printing and typesetting",
@@ -51,7 +51,7 @@ const Component1 = () => {
           point:"Free access to video class"
         }
       ],
-      bg:"white"
+      bg:"bg-white"
     }
   ]
   return (

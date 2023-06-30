@@ -1,6 +1,7 @@
 import TestimonialCard from "./TestimonialCard";
 import lolla from "../assets/lolla.png";
 import gray from "../assets/gray.svg";
+import arrow from '../assets/arrow.png';
 import purple from "../assets/purple.svg";
 const Component2 = () => {
   const testiData = [
@@ -43,7 +44,8 @@ const Component2 = () => {
               industry. Lorem Ipsum has been the industry
             </p>
           </div>
-          <div className="mb-2 flex gap-3 overflow-hidden">
+          <div className="mb-2 flex gap-8 overflow-hidden pb-2 rounded-md">
+            <img className="absolute left-[64.5%] translate-y-[50px]" src={arrow} alt="" />
             {testiData.map((ele) => {
               return (
                 <TestimonialCard
