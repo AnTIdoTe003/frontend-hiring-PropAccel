@@ -1,5 +1,5 @@
 # frontend-hiring-PropAccel
-The hiring test of the FrontEnd Dev Role of PropAccel made using React TypeScript and Tailwin
+The hiring test of the FrontEnd Dev Role of PropAccel was made using React TypeScript and Tailwind Css
 
 
 
